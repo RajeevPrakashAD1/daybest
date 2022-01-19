@@ -1,0 +1,32 @@
+.signup-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.razorpay-payment-button.svelte-ohbfj8 {
+    position: absolute !important;
+    right: 180px;
+    top: 500px;
+}
+
+@media screen and (max-width: 400px) {
+    .razorpay-payment-button.svelte-ohbfj8 {
+        position: absolute;
+        top: 1170px;
+        right: 70px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 600px) {
+    .razorpay-payment-button.svelte-ohbfj8 {
+        position: absolute;
+        top: 1240px;
+        right: 90px;
+    }
+}
+
+.highlight1 {
+    background-color: #a2f395;
+    text-decoration: solid;
+    font-weight: 700;
+}
