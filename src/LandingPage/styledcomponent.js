@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const S1div = styled.div`
+	position: relative;
+	z-index: 2;
 	& .tdiv {
 		${'' /* background-color: blue; */} width: 100%;
 		display: flex;
@@ -48,7 +50,6 @@ export const S2div = styled.div`
 	${'' /* position: relative;
 	bottom: 170px; */} position: relative;
 	margin-top: -200px;
-	z-index: -1;
 
 	display: flex;
 	flex-direction: column;
@@ -72,10 +73,12 @@ export const S2div = styled.div`
 		align-items: center;
 		text-align: center;
 		margin: 0px 30px;
+		padding-bottom: 80px;
 	}
 
 	& .csd {
-		padding: 20px;
+		padding: 10px;
+
 		padding-top: 30px;
 	}
 
@@ -84,6 +87,8 @@ export const S2div = styled.div`
 		${'' /* right: 450px;
 		bottom: 140px; */} top:10px;
 		left: 60px;
+
+		z-index: 3;
 	}
 	@media (max-width: 900px) {
 		margin-top: 10%;
@@ -171,11 +176,21 @@ export const S5div = styled.div`
 		top: -40px;
 		right: -40px;
 	}
+	.num1 {
+		color: #ffa427;
+	}
+	.num2 {
+		color: #7f3e20;
+	}
+	.num3 {
+		color: #8f8e79;
+	}
 	.blurtext {
 		position: relative;
 		bottom: 100px;
 		right: -280px;
 		max-width: 400px;
+		min-height: 130px;
 		font-size: 15px;
 
 		background: rgba(255, 255, 255, 0.5);
@@ -206,9 +221,9 @@ export const S6div = styled.div`
 		flex-direction: column;
 		justify-content: center;
 		align-items: left;
-		padding-left: 60px;
+		padding-left: 160px;
 		margin-right: 100px;
-		max-width: 350px;
+		max-width: 450px;
 	}
 `;
 export const S7div = styled.div`
@@ -463,7 +478,7 @@ export const H1 = styled.p`
 export const H2 = styled.p`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 35px;
 	line-height: 30px;
 	/* or 128% */
 

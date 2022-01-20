@@ -91,7 +91,7 @@ const LandingPage = () => {
 					...style,
 					display: 'block',
 					background: 'grey',
-					margin: '0px 150px',
+					margin: '0px 50px',
 					borderRadius: '100%',
 					width: '30px',
 					height: '30px',
@@ -193,20 +193,17 @@ const LandingPage = () => {
 							<div className="socialIcons">
 								<ul className="footer-icons">
 									<li>
-										<a href="https://www.instagram.com/airoco.in/" target="_blank">
-											<i class="fab fa-instagram" />
+										<a href="https://twitter.com/daybestpro" target="_blank">
+											<i class="fab fa-twitter" />
 										</a>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/airoco2021/" target="_blank">
+										<a href="https://www.facebook.com/daybestpro" target="_blank">
 											<i class="fab fa-facebook" />
 										</a>
 									</li>
 									<li>
-										<a
-											href="https://www.linkedin.com/company/airoco1/?viewAsMember=true"
-											target="_blank"
-										>
+										<a href="https://www.linkedin.com/company/daybestpro/" target="_blank">
 											<i class="fab fa-linkedin" />
 										</a>
 									</li>
@@ -228,8 +225,8 @@ const LandingPage = () => {
 										<img src={medikit} alt="m" height="40px" />
 										<P2> MediTech</P2>
 										<P1>
-											The Drone Technology shall be used to assist -Medicine Delivery, Organ
-											Delivering, Blood Banking etc
+											The Drone Technology used to assist Medicine Delivery, Organ Delivering,
+											Blood Banking etc
 										</P1>
 									</div>
 								</div>
@@ -438,7 +435,7 @@ const LandingPage = () => {
 								<div className="drnimg">
 									<img src={drnimg1} alt="drnimg" height="200px" />
 								</div>
-								<div className="num"> 01</div>
+								<div className="num num1"> 01</div>
 								<div className="blurtext">
 									{' '}
 									Indrayaan (Electrical Amphibious Aircraft)- India is a land of water and pond, it
@@ -450,7 +447,7 @@ const LandingPage = () => {
 								<div className="drnimg">
 									<img src={drnimg2} alt="drnimg" height="200px" />
 								</div>
-								<div className="num"> 02</div>
+								<div className="num num2"> 02</div>
 								<div className="blurtext">
 									{' '}
 									At Daybest we are trying to develop six-seater electrical amphibious aircraft.
@@ -460,7 +457,7 @@ const LandingPage = () => {
 								<div className="drnimg">
 									<img src={drnimg3} alt="drnimg" height="200px" />
 								</div>
-								<div className="num"> 03</div>
+								<div className="num num3"> 03</div>
 								<div className="blurtext">
 									{' '}
 									For Applications like Air Ambulance, Cargo, Air Charter and other aerial
@@ -475,7 +472,7 @@ const LandingPage = () => {
 					<container fluid>
 						<S6div>
 							<Row>
-								<Col lg="4" md="4" sm="12" className="s6t">
+								<Col lg="6" md="6" sm="12" className="s6t">
 									<H2> Our Partners</H2>
 									<P1>Several selected clients, who already believe in our service.</P1>
 								</Col>
@@ -484,13 +481,13 @@ const LandingPage = () => {
 										<img src={c1} alt="c" />
 										<img src={c2} alt="c" />
 										<img src={c3} alt="c" />
-										<img src={c3} alt="c" />
+
 										<img src={c4} alt="c" />
 										<img src={c5} alt="c" />
 										<img src={c6} alt="c" />
 										<img src={c7} alt="c" />
 										<img src={c8} alt="c" />
-										<img src={c9} alt="c" />
+										{/* <img src={c9} alt="c" /> */}
 										<img src={c10} alt="c" />
 										<img src={c11} alt="c" />
 									</div>
@@ -686,10 +683,10 @@ const LandingPage = () => {
 							<div className="slider_container">
 								<div className="stenp">
 									<div className="s10img">
-										<img height="200px" src={face} />
+										<img height="200px" src={c3} />
 									</div>
 									<div className="s10content">
-										<H2>Nirvaan Rastogi</H2>
+										<H2>ICMR </H2>
 										<P1>
 											“ ICMR appreciates the efforts Daybest Research Ltd have put into the ICMR’s
 											Drone Response and outreach for North East (i-Drone)” Over the time of last
@@ -703,10 +700,10 @@ const LandingPage = () => {
 							<div className="slider_container">
 								<div className="stenp">
 									<div className="s10img">
-										<img height="200px" src={face} />
+										<img height="200px" src={c3} />
 									</div>
 									<div className="s10content">
-										<H2>Nirvaan Rastogi</H2>
+										<H2>ICMR</H2>
 										<P1>
 											“ ICMR appreciates the efforts Daybest Research Ltd have put into the ICMR’s
 											Drone Response and outreach for North East (i-Drone)” Over the time of last
@@ -720,10 +717,10 @@ const LandingPage = () => {
 							<div className="slider_container">
 								<div className="stenp">
 									<div className="s10img">
-										<img height="200px" src={face} />
+										<img height="200px" src={c3} />
 									</div>
 									<div className="s10content">
-										<H2>Nirvaan Rastogi</H2>
+										<H2>ICMR</H2>
 										<P1>
 											“ ICMR appreciates the efforts Daybest Research Ltd have put into the ICMR’s
 											Drone Response and outreach for North East (i-Drone)” Over the time of last
@@ -783,24 +780,24 @@ const LandingPage = () => {
 								<h4>Company</h4>
 								<ul class="pages">
 									<li>
-										<Link to="/refundpolicy">
+										<Link to="/">
 											<a href="#">About Us</a>
 										</Link>
 									</li>
 									<li>
-										<Link to="/shippingpolicy">
+										<Link to="/">
 											{' '}
 											<a href="#">Carrier </a>
 										</Link>
 									</li>
 									<li>
-										<Link to="/privacypolicy">
+										<Link to="/">
 											{' '}
 											<a href="#">Become Invester</a>
 										</Link>
 									</li>
 									<li>
-										<Link to="/terms&conditions">
+										<Link to="/">
 											<a href="#">TERMS & CONDITIONS</a>
 										</Link>
 									</li>
@@ -815,12 +812,12 @@ const LandingPage = () => {
 							<div className="ft">contact@daybest.in</div> */}
 							<ul class="pages">
 								<li>
-									<Link to="/refundpolicy">
+									<Link to="#">
 										<a href="#">91-82187-5227</a>
 									</Link>
 								</li>
 								<li>
-									<Link to="/shippingpolicy">
+									<Link to="#">
 										{' '}
 										<a href="#">contact@daybest.in </a>
 									</Link>
@@ -841,20 +838,17 @@ const LandingPage = () => {
 							<div>
 								<ul className="footer-icons">
 									<li>
-										<a href="https://www.instagram.com/airoco.in/" target="_blank">
-											<i class="fab fa-instagram" />
+										<a href="https://twitter.com/daybestpro" target="_blank">
+											<i class="fab fa-twitter" />
 										</a>
 									</li>
 									<li>
-										<a href="https://www.facebook.com/airoco2021/" target="_blank">
+										<a href="https://www.facebook.com/daybestpro" target="_blank">
 											<i class="fab fa-facebook" />
 										</a>
 									</li>
 									<li>
-										<a
-											href="https://www.linkedin.com/company/airoco1/?viewAsMember=true"
-											target="_blank"
-										>
+										<a href="https://www.linkedin.com/company/daybestpro/" target="_blank">
 											<i class="fab fa-linkedin" />
 										</a>
 									</li>

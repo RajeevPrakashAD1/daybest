@@ -7,7 +7,7 @@ const timeremaining = timeremainings.getTime();
 const SigninButton = () => {
 	return (
 		<React.Fragment>
-			<Link to="/preorder">
+			<Link to="/">
 				<SigninButton1> Sign In </SigninButton1>{' '}
 			</Link>
 			{/* {timer == 't' ? null : <CountdownTimer countdownTimestampMs={timeremaining} />}{' '} */}
@@ -18,7 +18,7 @@ const SigninButton = () => {
 const KnowMore = () => {
 	return (
 		<React.Fragment>
-			<Link to="/preorder">
+			<Link to="/">
 				<KnowMore1> Know More </KnowMore1>{' '}
 			</Link>
 			{/* {timer == 't' ? null : <CountdownTimer countdownTimestampMs={timeremaining} />}{' '} */}

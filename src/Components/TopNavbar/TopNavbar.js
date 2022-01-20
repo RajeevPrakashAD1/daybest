@@ -38,12 +38,12 @@ function TopNavbar({ props }) {
 			<div className="collapse navbar-collapse pt-1" id="navbarSupportedContent">
 				<ul className={`headerUl navbar-nav ml-auto mr-sm-5 ${style.navItemheader}`}>
 					<li className={` ${style.headerI}  nav-item mr-sm-5`}>
-						<NavLink className="nav-link " activeClassName="active" to="/user/home">
+						<NavLink className="nav-link " activeClassName="active" to="/">
 							<span className={` ${style.text}`}>About</span>
 						</NavLink>
 					</li>
 					<li className={` ${style.headerI}  nav-item mr-sm-5`}>
-						<NavLink className="nav-link" activeClassName="active" to="/user/trending">
+						<NavLink className="nav-link" activeClassName="active" to="/">
 							{/* <img src={TrendingNavbar} alt="" width="20px" className=" ml-2" /> */}
 							{/* <i className="fa fa-home d-block ml-2" aria-hidden="true" /> */}
 
@@ -51,18 +51,18 @@ function TopNavbar({ props }) {
 						</NavLink>
 					</li>
 					<li className={` ${style.headerI}  nav-item mr-sm-5`}>
-						<NavLink className="nav-link" activeClassName="active" to="/user/groups">
+						<NavLink className="nav-link" activeClassName="active" to="/">
 							<span className={` ${style.text}`}>Service</span>
 						</NavLink>
 					</li>
 					<li className={` ${style.headerI}  nav-item mr-sm-5`}>
-						<NavLink className="nav-link " activeClassName="active" to="/user/notification">
+						<NavLink className="nav-link " activeClassName="active" to="/">
 							<span className={` ${style.text}`}>Contact</span>
 						</NavLink>
 					</li>
 
 					<li className={` ${style.headerI}  nav-item mr-sm-5`}>
-						<NavLink className="nav-link " activeClassName="active" to="/user/profile">
+						<NavLink className="nav-link " activeClassName="active" to="/">
 							{/* <i className="fa fa-user d-block ml-2" aria-hidden="true" /> */}
 							{/* <i className="fa-solid fa-right-from-bracket d-block ml-2" aria-hidden="true" /> */}
 
